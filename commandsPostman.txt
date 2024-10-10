@@ -1,0 +1,32 @@
+Creating vehicle
+{
+  "plate": "ABC1234",
+  "model": "Fusca",
+  "year": 1975,
+  "owner": "Maria Silva"
+}
+
+
+Creating workshop
+{
+  "name": "Oficina do João",
+  "adress": "Rua A, 123",
+  "specialties": "FREIOS"
+}
+
+
+Creating maintenence after obtaining id from the two before
+{
+  "workshop": "6707df05ae5d11a1b9e8c0cb",
+  "vehicle": "6707dd631e7cab7fde4679f1",
+  "services": [
+    {
+      "name": "Troca de Óleo",
+      "price": 100
+    },
+    {
+      "name": "Alinhamento",
+      "price": 50
+    }
+  ],
+  "date": "2024-10-10"
